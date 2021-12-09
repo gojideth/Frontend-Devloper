@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        color: burlywood;
+      }
+      p::first-letter {
+        color: yellow;
+      }
+      p::before {
+        content: "😎";
+      }
+      p:hover {
+        color: blueviolet;
+      }
+      ::placeholder{
+          color: tomato;
+      }
+      div p:nth-child(3) {
+        color: violet;
+      }
+      #tryout:nth-last-child(2){
+          color: blueviolet;
+          font-size: 200%;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Probanding anding</p>
+    <div>
+      <p>Placsi</p>
+      <p>Master</p>
+      <p>Lo mejor</p>
+      <input type="text" placeholder="name">
+    </div>
+    <div id="tryout">
+        <p>Guenasmi sochios</p>
+    </div>
+  </body>
+</html>

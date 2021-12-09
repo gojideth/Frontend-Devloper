@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <style>
+    section {
+      display: flex;
+      justify-content: center;
+    }
+
+    .card {
+      display: flex;
+      width: 450px;
+      height: 600px;
+      background: rgb(255, 255, 255);
+      flex-direction: column;
+      border-radius: 60px;
+      overflow: hidden;
+
+    }
+
+    #background-img {
+      justify-content: center;
+      align-items: center;
+      width: auto;
+      height: 38%;
+    }
+
+    #container-img {
+      height: 120px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-top: -40px;
+      margin-bottom: -30px;
+    }
+
+    #container-img img:nth-child(1) {
+      width: 120px;
+      height: 120px;
+      margin-top: -50px;
+      margin-bottom: 0px;
+      border-radius: 50%;
+      border: 6px solid white;
+
+
+    }
+
+    h1 {
+      margin: 5px;
+      font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+      font-size: 25px;
+      margin-top: 0px;
+    }
+
+    p {
+      font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+      font-size: 15px;
+      margin: 0%;
+
+    }
+
+    #info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 15px;
+      height: 60px;
+
+    }
+
+    #contact {
+      display: flex;
+      height: 60px;
+      justify-content: space-evenly;
+
+    }
+
+    .container-icons img:nth-child(1) {
+      width: 20px;
+      height: 20px;
+
+    }
+
+    .container-icons {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .container-icons>p {
+      padding: 5px;
+    }
+
+    #followers {
+      display: grid;
+      height: 100px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr;
+
+
+    }
+
+    #followers section:nth-child(1) {
+      border-right: 1px solid black;
+      border-top: 1px solid black;
+    }
+
+    #followers section:nth-child(2) {
+      border-top: 1px solid black;
+    }
+
+    .grid-gap {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+
+    }
+    #footer{
+      height: 90px;
+      background: rgb(87, 138, 37);
+      color: white;
+      
+    }
+    #footer > h1{
+      padding-top: 30px;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <section>
+    <div class="card">
+      <img id="background-img"
+        src="https://previews.123rf.com/images/yurich84/yurich841804/yurich84180400152/100592687-php-code-on-the-dark-blue-background-extreme-close-up.jpg"
+        alt="Fondo" />
+      <div id="container-img">
+        <img src="img/icon.jpeg" alt="Icon">
+      </div>
+      <div id="info">
+        <h1>Martin Chiquillo</h1>
+        <p>Backend enthusiast, systems engeneering student :)</p>
+
+      </div>
+      <div id="contact">
+        <div class="container-icons">
+          <img src="img/place.png" alt="location-icon">
+          <p>Colombia</p>
+        </div>
+        <div class="container-icons">
+          <img src="img/email.png" alt="email-icon">
+          <p> Send E-mail</p>
+        </div>
+      </div>
+
+      <div id="followers">
+        <section class="grid-gap">
+          <h1>8420 </h1>
+          <p>Followers</p>
+        </section>
+        <section class="grid-gap">
+          <h1>3434 </h1>
+
+          <p>Following</p>
+        </section>
+
+      </div>
+      <div id="footer">
+        <h1>Follow</h1>
+
+      </div>
+
+
+    </div>
+
+
+    </img>
+  </section>
+</body>
+
+</html>
